@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TY-Todo List</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="all">
+        <div class="head">
+            <h1>
+                TY-Todo List
+            </h1>
+        </div>
+        <div class="inputField">
+            <form action="" class="todo-form">
+                <input
+                id="todoTxt" 
+                type="text"
+                name="todoItem"
+                placeholder="add a todo"
+                class="todo-input"       
+                >
+                <button class="todo-button" onclick="saveTodo(event)">
+                    save
+                </button>
+            </form>
+        </div>
+        <div class="bottom">
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

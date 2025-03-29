@@ -1,0 +1,123 @@
+.head{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9d0ddb;
+}
+
+.head h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+/* add框容器 */
+.inputField{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-form{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.todo-input{
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.todo-button{
+    min-width: 120px;
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: linear-gradient(to right,#9426bc,#4179db);
+}
+
+.bottom{
+    width: 90%;
+    min-height: 390px;
+    height: auto;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.bottom ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.bottom ul li{
+    height: 50px;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    background-color: #f8f9fa;
+    border-radius: 25px;
+}
+
+/* alreadydo */
+.bottom ul li.li_al {
+    position: relative;
+    background-color: #a1a1a1;
+}
+
+.bottom ul li .div_al {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 814px;
+    height: 1px;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.bottom ul li .sp_al {
+    opacity: 0.5;
+}
+
+.bottom ul li .bt_al {
+    background-color: #a1a1a1;
+    opacity: 0.5;
+}
+
+
+.if-completed{
+    width: 3%;
+    height: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.todo-text{
+    width: 90%;
+}
+
+.del{
+    width: 7%;
+    border: none;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    color:red;
+}
